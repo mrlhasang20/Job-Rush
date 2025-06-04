@@ -80,9 +80,11 @@ python main_enhanced.py
 ```
 
 ## 🎮 Controls
-- **↑** Jump
-- **↓** Slide
-- **←/→** Switch lanes
+- **↑/↓** Change lanes
+- **SPACE** Jump
+- **CTRL** Slide
+- **ESC** Pause game
+- **P** Toggle pause
 
 ## 🏆 Scoring
 - Score points by surviving longer
@@ -114,3 +116,19 @@ This game showcases the capabilities of Amazon Q CLI in game development:
 - **Feature Implementation:** Seamless integration of complex game mechanics
 
 Made with ❤️ and Amazon Q CLI
+
+## 📺 Gameplay Preview
+[![Job Rush 2025 Gameplay](path_to_thumbnail.png)](your_youtube_video_link_here)
+
+## 📸 Screenshots
+<div align="center">
+  <img src="screenshots/main.png" alt="Main Menu" width="400"/>
+  <img src="screenshots/v3.png" alt="Silicon Valley sector" width="400"/>
+  <img src="screenshots/v3__.png" alt="Academia sector" width="400"/>
+  <img src="screenshots/v3_.png" alt="Job post" width="400"/>
+  <img src="screenshots/v3___.png" alt="Game Over" width="400"/>
+</div>
+
+## 📝 Development Blog
+Read about the development journey and how this game was built using Amazon Q CLI in my detailed blog post:
+[Building Job Rush 2025 with Amazon Q CLI - A Development Journey](your_medium_blog_post_link_here)
