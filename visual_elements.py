@@ -4,6 +4,17 @@ import os
 import random
 import math
 import textwrap
+import sys
+
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    
+    return os.path.join(base_path, relative_path)
 
 class SpriteManager:
     def __init__(self):
@@ -193,9 +204,18 @@ class SpriteManager:
 
     def load_animation(self, folder):
         frames = []
-        for filename in sorted(os.listdir(folder)):
-            if filename.endswith(".png"):
-                frames.append(pygame.image.load(os.path.join(folder, filename)).convert_alpha())
+        try:
+            folder_path = resource_path(folder)
+            for filename in sorted(os.listdir(folder_path)):
+                if filename.endswith(".png"):
+                    frame_path = os.path.join(folder_path, filename)
+                    frames.append(pygame.image.load(frame_path).convert_alpha())
+        except Exception as e:
+            print(f"Error loading animation from {folder}: {e}")
+            # Return a default animation frame if loading fails
+            default_frame = pygame.Surface((64, 64), pygame.SRCALPHA)
+            pygame.draw.rect(default_frame, (255, 0, 0), (0, 0, 64, 64))
+            frames = [default_frame]
         return frames
 
     def get_animation(self, state):
@@ -212,7 +232,7 @@ class ParallaxBackground:
         self.create_placeholder_layers(sector)
         
     def load_logo(self, name):
-        path = os.path.join("assets", "logos", f"{name}.png")
+        path = resource_path(os.path.join("assets", "logos", f"{name}.png"))
         if os.path.exists(path):
             return pygame.image.load(path).convert_alpha()
         else:

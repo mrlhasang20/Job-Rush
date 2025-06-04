@@ -1,109 +1,116 @@
-# Job Rush 2025
+# 🎓 Job Rush 2025
 
-A satirical PyGame runner game about navigating the corporate world as a recent graduate.
+> *A satirical PyGame runner built entirely with Amazon Q CLI, turning job hunting trauma into therapeutic gaming*
 
-## Game Overview
+[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://python.org)
+[![PyGame](https://img.shields.io/badge/PyGame-2.6.1-green.svg)](https://pygame.org)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Amazon Q CLI](https://img.shields.io/badge/Built%20with-Amazon%20Q%20CLI-orange.svg)](https://aws.amazon.com/q/)
 
-Job Rush 2025 is a side-scrolling runner game where you play as a recent graduate (represented by a graduate cap) navigating through the corporate landscape. Dodge obstacles, collect power-ups, and try to maintain your mental health while accumulating "Synergy Points".
+## 🤖 Built with Amazon Q CLI
+This entire game was developed using Amazon Q CLI, demonstrating the power of AI-assisted development:
+- **Code Generation:** All game components were generated through Amazon Q CLI prompts
+- **Architecture Design:** Game structure and patterns suggested by Amazon Q
+- **Problem Solving:** Debugging and optimization done through Q CLI interactions
+- **Asset Management:** Resource handling and organization guided by Q CLI
 
-## Premium Features
+## 🎮 Game Overview
 
-### Epic Intro Sequence
-- Cinematic opening with animated text
-- Character creation with name input
-- Satirical loading screen with humorous tips
+Job Rush 2025 is a side-scrolling runner game that humorously depicts the absurdities of modern job hunting. Play as a graduation cap navigating through corporate sectors, dodging unrealistic job requirements, and collecting power-ups while maintaining your mental health.
 
-### Visual Overhaul
-- Player sprite with graduate cap and portfolio briefcase
-- ATS Laser obstacles with "RESUME REJECTED" text
-- Skill Gap spikes labeled "5+ YEARS EXPERIENCE REQUIRED"
-- Experience walls with "PhD REQUIRED" signs
-- Burnout clouds with stress lightning
-- Recruiter bots shooting "UNPAID INTERNSHIP" projectiles
+### 🎯 Core Gameplay
+- **Character:** Navigate your graduation cap through the corporate maze
+- **Objective:** Survive the corporate obstacle course while maintaining your mental health
+- **Mechanics:** Jump, slide, and dodge through three lanes of corporate chaos
+- **Progression:** Battle through five unique corporate sectors with increasing difficulty
 
-### Immersive UI Elements
-- Mental health bar visualized as coffee cups (1-5)
-- "Synergy Points" display with rotating corporate buzzwords
-- Sector banners with satirical descriptions
+## ✨ Features
 
-### Dynamic Popup System
-- Fake job postings with unrealistic requirements
-- Rejection letters with humorous excuses
-- Sector transition animations with satirical loading text
+### 🎪 Game Mechanics
+- **Three-lane movement system** with smooth controls
+- **Dynamic difficulty scaling** based on player progression
+- **Mental health meter** visualized as coffee cups
+- **Five unique corporate sectors:**
+  - Silicon Valley
+  - Tech
+  - Academia
+  - Creative
+  - Retail
 
-### Enhanced Power-ups
-- Nepotism Pass: Golden handshake icon with crown
-- LinkedIn Premium: Blue professional headshot border
-- Mentorship Shield: Protective aura with wise face
-- Bootcamp Speed: Lightning bolt with "FULL STACK IN 6 WEEKS" text
+### 🎭 Satirical Elements
+- **Corporate jargon generator** with authentic buzzwords
+- **Absurd job requirements** like "10+ years experience with 2-year-old technology"
+- **Realistic power-ups** including:
+  - Nepotism Pass
+  - LinkedIn Premium
+  - Mentorship Shield
+  - Bootcamp Speed Boost
 
-### Parallax Background System
-- Office buildings with "NOW HIRING" signs
-- Moving clouds of job applications
-- Corporate logos and "SYNERGY" banners
-- Mountains of unpaid internships
+### 🛠️ Technical Features
+- **Particle effects system** for visual polish
+- **Parallax scrolling backgrounds** for immersive depth
+- **Dynamic audio system** with fallback support
+- **Modern popup system** for job postings and rejection letters
+- **Smooth 60 FPS gameplay** at 1280x720 resolution
 
-### Particle Effects
-- Stress particles when hitting obstacles
-- Money particles (that immediately disappear)
-- Diploma confetti (worthless but pretty)
-- Anxiety sparks around player character
+## 🚀 Installation
 
-### Enhanced Scoring System
-- "Years of Experience Faked"
-- "Buzzwords Learned"
-- "Dreams Crushed"
-- "Coffee Consumed"
-
-### Game Over Screen Enhancement
-- "REJECTION LETTER GENERATOR"
-- Satirical rejection messages
-- Social share button
-
-## Controls
-
-- **Arrow Keys**: Change lane (up/down)
-- **Space**: Jump
-- **Ctrl**: Slide
-- **E**: Interact with Skill Gap obstacles
-- **WASD**: Match ATS Laser patterns
-- **Mouse Click**: Break Experience Wall
-- **P**: Pause game
-
-## Installation
-
-1. Ensure you have Python 3.x and PyGame installed:
-   ```
-   pip install pygame
-   ```
-
-2. Clone or download this repository
-
-3. Run the enhanced game:
-   ```
-   python main_enhanced.py
-   ```
-
-## Project Structure
-
-```
-corporate_runner/
-├── intro_sequence.py     # Epic intro sequence
-├── visual_elements.py    # Sprites, backgrounds, and particles
-├── player_enhanced.py    # Enhanced player class
-├── obstacles_enhanced.py # Enhanced obstacles and power-ups
-├── popup_system.py       # Dynamic popup system
-├── game_over.py          # Enhanced game over screen
-├── corporate_jargon.py   # Corporate buzzword generator
-├── game_enhanced.py      # Main game logic
-├── main_enhanced.py      # Entry point
-└── README_enhanced.md    # This file
+### Prerequisites
+```bash
+Python 3.12+
+PyGame 2.6.1+
 ```
 
-## Credits
+### Quick Start
+1. Download the latest release from the Releases page
+2. Extract the ZIP file
+3. Run `Job_Rush.exe`
 
-Created as a satirical take on the modern job market. Any resemblance to actual corporate practices is... unfortunately intentional.
+### Development Setup
+```bash
+# Clone the repository
+git clone https://github.com/mrlhasang20/Job-Rush.git
+cd Job-Rush
 
-## License
+# Install dependencies
+pip install -r requirements.txt
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+# Run the game
+python main_enhanced.py
+```
+
+## 🎮 Controls
+- **↑** Jump
+- **↓** Slide
+- **←/→** Switch lanes
+
+## 🏆 Scoring
+- Score points by surviving longer
+- Collect power-ups for bonus points
+- Dodge obstacles to maintain your mental health
+- Share your results with #JobRushSurvival
+
+## 🤝 Contributing
+Feel free to contribute to this project by:
+1. Forking the repository
+2. Creating your feature branch
+3. Committing your changes
+4. Opening a pull request
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+- Built entirely using Amazon Q CLI
+- Powered by PyGame
+- Inspired by the real struggles of job seekers everywhere
+- Special thanks to all the recruiters who never replied to our applications
+
+## 🛠️ Development Process
+This game showcases the capabilities of Amazon Q CLI in game development:
+- **Rapid Prototyping:** Quick iteration through Q CLI suggestions
+- **Code Quality:** Best practices and patterns recommended by Q
+- **Problem Resolution:** Efficient debugging with Q CLI assistance
+- **Feature Implementation:** Seamless integration of complex game mechanics
+
+Made with ❤️ and Amazon Q CLI

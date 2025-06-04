@@ -9,3 +9,4 @@ pyperclip>=1.8.2
 
 # Build tools (for creating executable)
 pyinstaller>=6.3.0
+Pillow
