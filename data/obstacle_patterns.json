@@ -1,0 +1,53 @@
+{
+    "skill_gap": [
+        {
+            "difficulty": "easy",
+            "qte_count": 2,
+            "time_limit": 1.5
+        },
+        {
+            "difficulty": "medium",
+            "qte_count": 3,
+            "time_limit": 1.2
+        },
+        {
+            "difficulty": "hard",
+            "qte_count": 4,
+            "time_limit": 1.0
+        }
+    ],
+    "ats_laser": [
+        {
+            "difficulty": "easy",
+            "pattern_length": 3,
+            "time_per_key": 0.8
+        },
+        {
+            "difficulty": "medium",
+            "pattern_length": 4,
+            "time_per_key": 0.6
+        },
+        {
+            "difficulty": "hard",
+            "pattern_length": 5,
+            "time_per_key": 0.4
+        }
+    ],
+    "experience_wall": [
+        {
+            "difficulty": "easy",
+            "click_count": 3,
+            "time_limit": 2.0
+        },
+        {
+            "difficulty": "medium",
+            "click_count": 5,
+            "time_limit": 1.5
+        },
+        {
+            "difficulty": "hard",
+            "click_count": 7,
+            "time_limit": 1.0
+        }
+    ]
+}

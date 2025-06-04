@@ -1,0 +1,11 @@
+# Core game engine
+pygame>=2.5.0
+
+# AWS integration (for leaderboard)
+boto3>=1.28.0
+
+# Clipboard functionality (for sharing scores)
+pyperclip>=1.8.2
+
+# Build tools (for creating executable)
+pyinstaller>=6.3.0
