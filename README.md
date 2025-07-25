@@ -131,4 +131,4 @@ Made with ❤️ and Amazon Q CLI
 
 ## 📝 Development Blog
 Read about the development journey and how this game was built using Amazon Q CLI in my detailed blog post:
-[Building Job Rush 2025 with Amazon Q CLI - A Development Journey](your_medium_blog_post_link_here)
+[Building Job Rush 2025 with Amazon Q CLI - A Development Journey](https://medium.com/@lamalhasang256/i-built-a-brutally-honest-job-market-game-using-only-ai-prompts-with-amazon-q-cli-and-you-can-too-dece7703f951)
