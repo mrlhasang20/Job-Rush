@@ -7,6 +7,10 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Amazon Q CLI](https://img.shields.io/badge/Built%20with-Amazon%20Q%20CLI-orange.svg)](https://aws.amazon.com/q/)
 
+## 📝 Development Blog
+Read about the development journey and how this game was built using Amazon Q CLI in my detailed blog post:
+[Building Job Rush 2025 with Amazon Q CLI - A Development Journey](https://medium.com/@lamalhasang256/i-built-a-brutally-honest-job-market-game-using-only-ai-prompts-with-amazon-q-cli-and-you-can-too-dece7703f951)
+
 ## 🤖 Built with Amazon Q CLI
 This entire game was developed using Amazon Q CLI, demonstrating the power of AI-assisted development:
 - **Code Generation:** All game components were generated through Amazon Q CLI prompts
@@ -129,6 +133,3 @@ Made with ❤️ and Amazon Q CLI
   <img src="screenshots/v3___.png" alt="Game Over" width="400"/>
 </div>
 
-## 📝 Development Blog
-Read about the development journey and how this game was built using Amazon Q CLI in my detailed blog post:
-[Building Job Rush 2025 with Amazon Q CLI - A Development Journey](https://medium.com/@lamalhasang256/i-built-a-brutally-honest-job-market-game-using-only-ai-prompts-with-amazon-q-cli-and-you-can-too-dece7703f951)
